@@ -1,0 +1,103 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;
+}
+body{
+    margin-left: 300px;
+}
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color:white;
+    margin-bottom: 30px;
+    height: 100px;
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+header nav a{
+    margin: 0 15px;
+    color: black;
+}
+header nav a:last-child{
+    margin-right: 200px;
+    color: white;
+    background-color:blueviolet;
+    border-radius: 4px;
+    padding: 15px 30px;
+    
+}
+
+aside img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    margin-top: 90px;
+    
+}
+
+
+button{
+    color: white;
+    background-color:blueviolet;
+    border-radius: 4px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header img{
+    width: 30px;
+}
+
+
+.box1{
+    text-decoration: aqua; color: white;
+    background-color:rgb(218, 217, 219);
+    border-radius: 4px;
+    padding: 15px 30px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border: none;
+    display: inline;
+}
+
+.box2{
+    color: white;
+    background-color:rgb(218, 217, 219);
+    border-radius: 4px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border: none;
+    display: inline-block;
+}
+
+.box3{
+    color: white;
+    background-color:rgb(218, 217, 219);
+    border-radius: 4px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border: none;
+    display: inline-block;
+}
+
+.bloco1{
+    display: inline-block;
+}
+
+.bloco2{
+    display: inline-block;
+    border: none;
+    background: #fcfcfc;
+    box-shadow:  33px 33px 100px #efefef,
+             -33px -33px 100px #ffffff;
+}
